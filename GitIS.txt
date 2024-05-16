@@ -1,0 +1,13 @@
+git init 		//將資料夾變成repository
+
+git status 		//查看資料夾狀態(untrack)
+
+git add <file name>	//將檔案新增到git(under track)
+
+git add . 		//將所有檔案加入倒git 
+
+git commit 		//存檔(進入文字編輯器) 可用!q退出
+
+git commit -m "messege" //存檔(不會進入文字編輯器)
+
+git log 		//看所有已存檔的訊息
