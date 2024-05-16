@@ -12,4 +12,6 @@ git commit -m "messege" //存檔(不會進入文字編輯器)
 
 git log 		//看所有已存檔的訊息
 
-git remote add origin https://github.com/jimmychnag/TW02-heap-.git //將檔案連接到後面的網址，而此名字設定為origin
+git remote add <自訂名稱> https://github.com/jimmychnag/TW02-heap-.git //將檔案連接到後面的網址，而此名字設定為自訂名稱
+
+git push -u <自訂名稱> master //將預設路徑都設為自訂名稱的網址，以後只需要打git push 即可
